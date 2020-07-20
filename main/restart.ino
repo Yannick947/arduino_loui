@@ -32,14 +32,14 @@ void restart(){
  for (int i = 0; i < 4; i ++) {
   print_display("0", i + 3, 1, 22, 0);
  }
- zaehler_1=0;
- zaehler_2=0;
- zaehler_3=0;
- zaehler_4=0;
+ zaehler_1 = 0;
+ zaehler_2 = 0;
+ zaehler_3 = 0;
+ zaehler_4 = 0;
  audio = 0;
- count=0;
+ count = 0;
  count_1 = 0;
- current =0;
+ current = 0;
  current_0 = 0;
  neustart_an = 0;
  motor = HIGH;
@@ -59,7 +59,6 @@ void restart(){
  zufall; 
  zufall2;
  zufall3;
- zufall4; 
 
  fertig_dosiert = 0;
 }

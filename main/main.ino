@@ -9,6 +9,16 @@ int lichtschranke_3 = A3;
 int lichtschranke_4 = A4;
 int lichtschranke_5 = A5;
 
+const int motor_right_LL = 9;
+const int motor_left_LL = 10;
+
+const int motor_right_DOS = 11;
+const int motor_left_DOS = 12;
+
+const int playlist[] = {0,1,2,3,2,4,5,6,7,1,0,6,5,7,4,3};
+
+int games = 0;
+
 char string0[12];
 char string00[10];
 
@@ -46,7 +56,6 @@ unsigned long millisbutton_4;
 long zufall; 
 long zufall2;
 long zufall3;
-int  zufall4;
 
 int runtime;
 float i = 0;
@@ -65,7 +74,7 @@ void setup() {
   // initialize the motor and LED pins as an output:
    // debug output at 9600 baud
   Serial.begin(9600);
-  Serial.println("Version: 6_00");
+  Serial.println("Version: 6_11");
   initialize_SD();
   initialize_buttons();
   initialize_disply();
@@ -103,11 +112,16 @@ void loop() {
     }
   }
   zufallszahlen_generieren();
-  char beleidigung[] = "BeleidiX.wav";          
+  char beleidigung[] = "BeleidiX.wav";  
+  if (games == 15){
+      games = 0;  
+  }
+        
   if (fertig_dosiert == 0){
       Serial.println("fertig_dosiert = 0");
       zufallszahlen_generieren();
-      beleidigung [7] = (char)('1' + zufall4); 
+      beleidigung [7] = (char)('1' + playlist[games]); 
+      games = games+1;
       for (int w =0; w<2; w++){
         audio_playback(string0);      //Beleidigung wird zwei mal gespielt und anschließend der Spieler aufgefordert sein Glas hinzustellen
         audio_playback(beleidigung);  
@@ -122,6 +136,11 @@ void loop() {
 
 
 
+
+
+
+
+      
 
 
 

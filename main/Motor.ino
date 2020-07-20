@@ -5,7 +5,7 @@ void motor_an(){
  float sinus = 0.0;
  if (motor==HIGH) {
       current = millis();
-      analogWrite (10,0);
+      analogWrite (motor_left_LL,0);
       Serial.println(current);
       //    Serial.print("1=");
       //    Serial.println(buttonState_1);
@@ -14,16 +14,16 @@ void motor_an(){
   if (buttonState_1 ==HIGH){            //Switch- entscheidet über rechte oder linken Schalter    
     if (buttonState_2 == HIGH){// MODUS: low
       if(startzeit < 8){
-        analogWrite(9, 90);
+        analogWrite(motor_right_LL, 90);
         startzeit ++;
       }
       else{
-        analogWrite(9,28); 
+        analogWrite(motor_right_LL,28); 
       }
     }
       
     if ((buttonState_2 == LOW) && (buttonState_3 ==LOW) ){    // MODUS: normal
-      analogWrite(9,80);
+      analogWrite(motor_right_LL,80);
     }
 
     if (buttonState_3 == HIGH){             // MODUS: Sinus
@@ -36,7 +36,7 @@ void motor_an(){
         if (i > pi){
           i=0;
         }    
-        analogWrite(9, abs(sinus)+28);
+        analogWrite(motor_right_LL, abs(sinus)+28);
     }
     
   }
@@ -46,7 +46,7 @@ void motor_an(){
         count=0;
         zufallszahlen_generieren();
         if (current >= runtime){                       
-          analogWrite(9, zufall);   
+          analogWrite(motor_right_LL, zufall);   
           runtime = current + zufall2;      
         }
     }
@@ -54,12 +54,12 @@ void motor_an(){
     if (buttonState_2 == HIGH){   // MODUS:rocket start
       
       if(count==0){
-        analogWrite(9, 0);
+        analogWrite(motor_right_LL, 0);
         current_0 = current;
         count++;
       }
       if(current >= (4000 + current_0)){
-        analogWrite(9, 140);
+        analogWrite(motor_right_LL, 140);
       }
       
           if((current - current_0) >= (4000 + (zufall3))){
@@ -76,21 +76,21 @@ void motor_an(){
         Serial.println(zaehler_3);  
         
         if((zaehler_1 + zaehler_2 + zaehler_3 + zaehler_4) >= 6){
-          analogWrite(9, 130);
+          analogWrite(motor_right_LL, 130);
         }
         else{
           if(zaehler_1 == 2 || zaehler_2 == 2 || zaehler_3 == 2 || zaehler_4 == 2){
-            analogWrite(9, 100);
+            analogWrite(motor_right_LL, 100);
           }
 
           else{
             if(zaehler_1 == 1 || zaehler_2 == 1 || zaehler_3 == 1 || zaehler_4 == 1){
-              analogWrite(9, 70);
+              analogWrite(motor_right_LL, 70);
             }
 
             else{
               if(zaehler_1 ==0 && zaehler_2 == 0 && zaehler_3 == 0 && zaehler_4 == 0){
-                analogWrite(9, 50);
+                analogWrite(motor_right_LL, 50);
               }  
             }
           }

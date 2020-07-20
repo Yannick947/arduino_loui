@@ -6,7 +6,7 @@ void audio_playback(char string[]){
   char string3[]= "Spieler3.wav";
   char string4[]= "Spieler4.wav";
   char glas_stellen[] = "Glas.wav";
-  analogWrite(9,0);
+  analogWrite(motor_right_LL,0);
   // open wave file from sdcard
   File myFile;
 
@@ -32,19 +32,19 @@ void audio_playback(char string[]){
   Serial.print("Playing");
   // until the file is not finished
   while (myFile.available()) {
-    Serial.println("A");
+    //Serial.println("A");
     // read from the file into buffer
     myFile.read(buffer, sizeof(buffer));
-    Serial.println("B");
+    //Serial.println("B");
 
     // Prepare samples
     int volume = 1024;
     Audio.prepare(buffer, S, volume);
     // Feed samples to audio
-    Serial.println("C");
+    //Serial.println("C");
     
     Audio.write(buffer, S);
-    Serial.println("D");
+    //Serial.println("D");
     // Every 100 block print a '.'
     count++;
     if (count == 100) {
