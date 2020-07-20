@@ -10,7 +10,7 @@ bool check_end_game(){
   float actual_cl = 0; 
   if (zaehler_1 >= 3 || zaehler_2 >= 3 || zaehler_3 >= 3 || zaehler_4 >= 3){
     motor=LOW;
-    analogWrite(9,0);
+    analogWrite(motor_right_LL,0);
     actual_cl = 4 - (zaehler_1 + zaehler_2 + zaehler_3 + zaehler_4 - 3) * 0.4;
     if(zaehler_1 >= 3){
       for(int i = 0; i < 12; i ++){

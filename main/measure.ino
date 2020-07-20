@@ -25,21 +25,21 @@ void dosieren (){
   Serial.println("Dosieren läuft, Shotmenge:" + String(shotmenge));
 
   delay(1500);
-  analogWrite(11, 180);
-  analogWrite(12, 0);
+  analogWrite(motor_right_DOS, 180);
+  analogWrite(motor_left_DOS, 0);
   delay(350);
-  analogWrite(11, 100);
+  analogWrite(motor_right_DOS, 100);
   delay(400);
-  analogWrite(11, 90);
+  analogWrite(motor_right_DOS, 90);
   delay(shotmenge);
-  digitalWrite(12,0);
-  digitalWrite(11,0);
+  digitalWrite(motor_left_DOS,0);
+  digitalWrite(motor_right_DOS,0);
   delay(100);
-  analogWrite(12, 150);
-  analogWrite(11, 0);
+  analogWrite(motor_left_DOS, 150);
+  analogWrite(motor_right_DOS, 0);
   delay(100);
-  digitalWrite(12,0);
-  digitalWrite(11,0);
+  digitalWrite(motor_left_DOS,0);
+  digitalWrite(motor_right_DOS,0);
   Serial.println("Dosieren beendet");
   fertig_dosiert = 1;
 }
