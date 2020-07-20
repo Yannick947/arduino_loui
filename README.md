@@ -1,0 +1,1 @@
+This repo can be used to play looping louie in different modes. Photocells are used to detect the chip count for each player. Automatic speech output is implemented and the game is stopped automatically when a player lost. 
