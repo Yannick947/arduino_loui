@@ -1,0 +1,2346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\flori\Desktop\Version_1\Version_1.sch</source>
+    <date>29.11.2019 18:41:26</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Version_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Analog/Messung/" tstamps="/5DD6D224/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>file5DD6D223.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>file5DE332A8.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Digital/Arduino/" tstamps="/5DD6D27C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>file5DD6D27B.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="PS1">
+      <value>TMR_1-0511</value>
+      <footprint>TMR-1-1215</footprint>
+      <datasheet>https://assets.tracopower.com/20190212110407/TMR1/documents/tmr1-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Description">TRACOPOWER 1W Isolated DC-DC Converter, Vin 4.5  9 V dc, Vout 5V dc, I/O isolation 1500V dc</field>
+        <field name="Manufacturer_Name">Traco Power</field>
+        <field name="Manufacturer_Part_Number">TMR 1-0511</field>
+        <field name="Mouser Part Number">495-TMR-1-0511</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=495-TMR-1-0511</field>
+        <field name="RS Part Number">7813178</field>
+        <field name="RS Price/Stock">https://uk.rs-online.com/web/p/products/7813178</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TMR_1-0511" description="TRACOPOWER 1W Isolated DC-DC Converter, Vin 4.5  9 V dc, Vout 5V dc, I/O isolation 1500V dc"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DDF11C2</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ADUM1401BRWZ-RL</value>
+      <footprint>SOIC127P1032X265-16N</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1400_1401_1402.pdf</datasheet>
+      <fields>
+        <field name="Description">4-Ch Digital Isolator 3/1 SOICW16</field>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">ADUM1401BRWZ-RL</field>
+        <field name="Mouser Part Number">584-ADUM1401BRWZ-R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-ADUM1401BRWZ-R</field>
+        <field name="RS Part Number">9140419</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/9140419</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="ADUM1401BRWZ-RL" description="4-Ch Digital Isolator 3/1 SOICW16"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DDF51BB</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>MCP3208-BI_P</value>
+      <footprint>DIP781W56P254L1918H533Q16N</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/microchip-technology-inc-mcp3208-bi-p/70048406/</field>
+        <field name="Allied_Number">70048406</field>
+        <field name="Description">12 bit ADC Differential, Serial, 16-Pin PDIP</field>
+        <field name="Height">5.334</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP3208-BI/P</field>
+        <field name="Mouser Part Number">579-MCP3208-BI/P</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP3208-BI%2FP</field>
+        <field name="RS Part Number">3792487</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/3792487</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MCP3208-BI_P" description="12 bit ADC Differential, Serial, 16-Pin PDIP"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DDFC7BC</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DE04C84</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DE09278</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DE09E38</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>AD1584BRTZ-REEL7</value>
+      <footprint>SOT95P264X112-3N</footprint>
+      <fields>
+        <field name="Description">Precision Series Mode Voltage References</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD1584BRTZ-REEL7</field>
+        <field name="Mouser Part Number">584-AD1584BRTZ-R7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD1584BRTZ-R7</field>
+        <field name="RS Part Number">7091549P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7091549P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AD1584BRTZ-REEL7" description="Precision Series Mode Voltage References"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DE0EA32</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DE118B4</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DE120C4</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DE1EFC5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_RED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DEA63C6</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5DEACF75</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Analog/Messung/" tstamps="/5DD6D224/"/>
+      <tstamp>5E29A475</tstamp>
+    </comp>
+    <comp ref="IC6">
+      <value>INA132UA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina132.pdf</datasheet>
+      <fields>
+        <field name="Description">INA132UA, Differential Amplifier 5V 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA132UA</field>
+        <field name="Mouser Part Number">595-INA132UA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-INA132UA</field>
+        <field name="RS Part Number">2521644P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2521644P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="INA132UA" description="INA132UA, Differential Amplifier 5V 8-Pin SOIC"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF493B3</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>1729128</value>
+      <footprint>HDRV2W110P0X508_1X2_1016X810X1000P</footprint>
+      <datasheet>http://docs-emea.rs-online.com/webdocs/1380/0900766b81380189.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/phoenix-contact-1729128/70054405/</field>
+        <field name="Allied_Number">70054405</field>
+        <field name="Description">2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1729128</field>
+        <field name="Mouser Part Number">651-1729128</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1729128</field>
+        <field name="RS Part Number">1930586</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1930586</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1729128" description="2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF493C8</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF49402</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF49435</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF038BF</tstamp>
+    </comp>
+    <comp ref="IC7">
+      <value>INA132UA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina132.pdf</datasheet>
+      <fields>
+        <field name="Description">INA132UA, Differential Amplifier 5V 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA132UA</field>
+        <field name="Mouser Part Number">595-INA132UA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-INA132UA</field>
+        <field name="RS Part Number">2521644P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2521644P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="INA132UA" description="INA132UA, Differential Amplifier 5V 8-Pin SOIC"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF2F857</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>1729128</value>
+      <footprint>HDRV2W110P0X508_1X2_1016X810X1000P</footprint>
+      <datasheet>http://docs-emea.rs-online.com/webdocs/1380/0900766b81380189.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/phoenix-contact-1729128/70054405/</field>
+        <field name="Allied_Number">70054405</field>
+        <field name="Description">2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1729128</field>
+        <field name="Mouser Part Number">651-1729128</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1729128</field>
+        <field name="RS Part Number">1930586</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1930586</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1729128" description="2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF2F86C</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF2F89E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF2F8CC</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF2F8F5</tstamp>
+    </comp>
+    <comp ref="IC8">
+      <value>INA132UA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina132.pdf</datasheet>
+      <fields>
+        <field name="Description">INA132UA, Differential Amplifier 5V 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA132UA</field>
+        <field name="Mouser Part Number">595-INA132UA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-INA132UA</field>
+        <field name="RS Part Number">2521644P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2521644P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="INA132UA" description="INA132UA, Differential Amplifier 5V 8-Pin SOIC"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF3D1F6</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>1729128</value>
+      <footprint>HDRV2W110P0X508_1X2_1016X810X1000P</footprint>
+      <datasheet>http://docs-emea.rs-online.com/webdocs/1380/0900766b81380189.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/phoenix-contact-1729128/70054405/</field>
+        <field name="Allied_Number">70054405</field>
+        <field name="Description">2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1729128</field>
+        <field name="Mouser Part Number">651-1729128</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1729128</field>
+        <field name="RS Part Number">1930586</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1930586</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1729128" description="2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF3D20B</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF3D23D</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF3D26B</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF3D294</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>INA132UA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina132.pdf</datasheet>
+      <fields>
+        <field name="Description">INA132UA, Differential Amplifier 5V 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA132UA</field>
+        <field name="Mouser Part Number">595-INA132UA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-INA132UA</field>
+        <field name="RS Part Number">2521644P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2521644P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="INA132UA" description="INA132UA, Differential Amplifier 5V 8-Pin SOIC"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BE5E</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>1729128</value>
+      <footprint>HDRV2W110P0X508_1X2_1016X810X1000P</footprint>
+      <datasheet>http://docs-emea.rs-online.com/webdocs/1380/0900766b81380189.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/phoenix-contact-1729128/70054405/</field>
+        <field name="Allied_Number">70054405</field>
+        <field name="Description">2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1729128</field>
+        <field name="Mouser Part Number">651-1729128</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1729128</field>
+        <field name="RS Part Number">1930586</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1930586</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1729128" description="2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BE73</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BEA5</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BED3</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BEFC</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>INA132UA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina132.pdf</datasheet>
+      <fields>
+        <field name="Description">INA132UA, Differential Amplifier 5V 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA132UA</field>
+        <field name="Mouser Part Number">595-INA132UA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-INA132UA</field>
+        <field name="RS Part Number">2521644P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2521644P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="INA132UA" description="INA132UA, Differential Amplifier 5V 8-Pin SOIC"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF68BA0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>1729128</value>
+      <footprint>HDRV2W110P0X508_1X2_1016X810X1000P</footprint>
+      <datasheet>http://docs-emea.rs-online.com/webdocs/1380/0900766b81380189.pdf</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/phoenix-contact-1729128/70054405/</field>
+        <field name="Allied_Number">70054405</field>
+        <field name="Description">2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1729128</field>
+        <field name="Mouser Part Number">651-1729128</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1729128</field>
+        <field name="RS Part Number">1930586</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1930586</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1729128" description="2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF68BB5</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF68BE7</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF68C15</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF68C3E</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>JS202011SCQN</value>
+      <footprint>JS202011SCQN</footprint>
+      <datasheet>http://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=611-JS202011SCQN</field>
+        <field name="RS Part Number">1546137</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1546137</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JS202011SCQN" description="Sub miniature slide switches"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DFF8010</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>6k8</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DFF8018</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DFF8020</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>3k9</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DFF8026</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>JS202011SCQN</value>
+      <footprint>JS202011SCQN</footprint>
+      <datasheet>http://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=611-JS202011SCQN</field>
+        <field name="RS Part Number">1546137</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1546137</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JS202011SCQN" description="Sub miniature slide switches"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E01828D</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>6k8</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E018295</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E01829D</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>3k9</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E0182A3</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>JS202011SCQN</value>
+      <footprint>JS202011SCQN</footprint>
+      <datasheet>http://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=611-JS202011SCQN</field>
+        <field name="RS Part Number">1546137</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1546137</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JS202011SCQN" description="Sub miniature slide switches"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E07D97C</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E07D98C</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>3k9</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E07D992</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>6k8</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E07D984</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E2AF116</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E2B9FEA</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E2C5013</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E2D041E</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E2DB36C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E3CA1D8</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E3CBCDB</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E3CC57D</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E3CD499</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E3CDB1C</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>JS202011SCQN</value>
+      <footprint>JS202011SCQN</footprint>
+      <datasheet>http://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=611-JS202011SCQN</field>
+        <field name="RS Part Number">1546137</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1546137</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JS202011SCQN" description="Sub miniature slide switches"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BE81</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>6k8</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BE8E</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BE96</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>3k9</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DF5BE9C</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E44B0FE</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>3k9</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DFD6FAE</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DFD6FA8</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>6k8</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DFD6FA0</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>JS202011SCQN</value>
+      <footprint>JS202011SCQN</footprint>
+      <datasheet>http://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=611-JS202011SCQN</field>
+        <field name="RS Part Number">1546137</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1546137</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JS202011SCQN" description="Sub miniature slide switches"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5DFD6F98</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E4E8092</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E5810B1</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E58E308</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>BAV199LT1G</value>
+      <footprint>SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BAV199LT1G" description="Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23"/>
+      <sheetpath names="/Analog/Messung/Messung/" tstamps="/5DD6D224/5DE332A9/"/>
+      <tstamp>5E59C165</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>112I-TDAR-R</value>
+      <footprint>112ITDARR</footprint>
+      <datasheet>https://www.tme.eu/Document/1c9cd501982481d0bcdd4b50427971fa/112i-tdar-r.pdf</datasheet>
+      <fields>
+        <field name="Description">Micro SD Socket</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">ATTEND</field>
+        <field name="Manufacturer_Part_Number">112I-TDAR-R</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="112I-TDAR-R" description="Micro SD Socket"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DD79DE2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DD9438E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DD96182</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDA0FC5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDB4EAF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDB5994</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDBCAA5</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDC5436</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDC65D0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDC953E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>NB</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDE14B6</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>NB</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDE2A73</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>NB</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDE3C1C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DDEE1BD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_Yellow</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DEB4C44</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_RED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DEB5379</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_Green</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DEB5C26</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DEBADB9</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DEBC1A7</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DEBD5EF</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DFF8D5A</tstamp>
+    </comp>
+    <comp ref="XA1">
+      <value>Arduino_Due_Shield_MA</value>
+      <footprint>Arduino:Arduino_Due_Shield_MA_v2</footprint>
+      <datasheet>https://store.arduino.cc/arduino-due</datasheet>
+      <libsource lib="arduino" part="Arduino_Due_Shield_MA_V2" description="Shield for Arduino Due"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DD78129</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E28C053</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E302E79</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E304E90</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E306E56</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E31BAAD</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E323F12</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>JS202011SCQN</value>
+      <footprint>JS202011SCQN</footprint>
+      <datasheet>http://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=611-JS202011SCQN</field>
+        <field name="RS Part Number">1546137</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1546137</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JS202011SCQN" description="Sub miniature slide switches"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E33DAA8</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E36CC4A</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5E36F6D6</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DE1EF2E</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>NB</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Digital/Arduino/" tstamps="/5DD6D27C/"/>
+      <tstamp>5DE31711</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="112I-TDAR-R">
+      <description>Micro SD Socket</description>
+      <docs>https://www.tme.eu/Document/1c9cd501982481d0bcdd4b50427971fa/112i-tdar-r.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">112I-TDAR-R</field>
+        <field name="Footprint">112ITDARR</field>
+        <field name="Datasheet">https://www.tme.eu/Document/1c9cd501982481d0bcdd4b50427971fa/112i-tdar-r.pdf</field>
+        <field name="Description">Micro SD Socket</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">ATTEND</field>
+        <field name="Manufacturer_Part_Number">112I-TDAR-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DTA2" type="unspc"/>
+        <pin num="2" name="CD/DAT3" type="unspc"/>
+        <pin num="3" name="CMD" type="unspc"/>
+        <pin num="4" name="VDD" type="unspc"/>
+        <pin num="5" name="CLK" type="unspc"/>
+        <pin num="6" name="VSS" type="unspc"/>
+        <pin num="7" name="DAT0" type="unspc"/>
+        <pin num="8" name="DAT1" type="unspc"/>
+        <pin num="9" name="CD1/GND" type="unspc"/>
+        <pin num="10" name="CD2" type="unspc"/>
+        <pin num="MP1" name="MP1" type="unspc"/>
+        <pin num="MP2" name="MP2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="1729128">
+      <description>2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V</description>
+      <docs>http://docs-emea.rs-online.com/webdocs/1380/0900766b81380189.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1729128</field>
+        <field name="Footprint">HDRV2W110P0X508_1X2_1016X810X1000P</field>
+        <field name="Datasheet">http://docs-emea.rs-online.com/webdocs/1380/0900766b81380189.pdf</field>
+        <field name="Description">2way low profile vertical mount terminal Phoenix Contact Non-Fused Terminal Block, 2 Way, Solder Terminals, 30 ??? 14 AWG Through Hole, Nylon, 630 V</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1729128</field>
+        <field name="Mouser Part Number">651-1729128</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=651-1729128</field>
+        <field name="RS Part Number">1930586</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1930586</field>
+        <field name="Allied_Number">70054405</field>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/phoenix-contact-1729128/70054405/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="AD1584BRTZ-REEL7">
+      <description>Precision Series Mode Voltage References</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AD1584BRTZ-REEL7</field>
+        <field name="Footprint">SOT95P264X112-3N</field>
+        <field name="Description">Precision Series Mode Voltage References</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD1584BRTZ-REEL7</field>
+        <field name="Mouser Part Number">584-AD1584BRTZ-R7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD1584BRTZ-R7</field>
+        <field name="RS Part Number">7091549P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7091549P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="unspc"/>
+        <pin num="2" name="GND" type="unspc"/>
+        <pin num="3" name="VIN" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ADUM1401BRWZ-RL">
+      <description>4-Ch Digital Isolator 3/1 SOICW16</description>
+      <docs>http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1400_1401_1402.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADUM1401BRWZ-RL</field>
+        <field name="Footprint">SOIC127P1032X265-16N</field>
+        <field name="Datasheet">http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1400_1401_1402.pdf</field>
+        <field name="Description">4-Ch Digital Isolator 3/1 SOICW16</field>
+        <field name="Height">2.65</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">ADUM1401BRWZ-RL</field>
+        <field name="Mouser Part Number">584-ADUM1401BRWZ-R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-ADUM1401BRWZ-R</field>
+        <field name="RS Part Number">9140419</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/9140419</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="unspc"/>
+        <pin num="2" name="GND1_1" type="unspc"/>
+        <pin num="3" name="VIA" type="unspc"/>
+        <pin num="4" name="VIB" type="unspc"/>
+        <pin num="5" name="VIC" type="unspc"/>
+        <pin num="6" name="VOD" type="unspc"/>
+        <pin num="7" name="VE1" type="unspc"/>
+        <pin num="8" name="GND1_2" type="unspc"/>
+        <pin num="9" name="GND2_1" type="unspc"/>
+        <pin num="10" name="VE2" type="unspc"/>
+        <pin num="11" name="VID" type="unspc"/>
+        <pin num="12" name="VOC" type="unspc"/>
+        <pin num="13" name="VOB" type="unspc"/>
+        <pin num="14" name="VOA" type="unspc"/>
+        <pin num="15" name="GND2_2" type="unspc"/>
+        <pin num="16" name="VDD2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="BAV199LT1G">
+      <description>Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</description>
+      <docs>http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV199LT1G</field>
+        <field name="Footprint">SOT96P237X111-3N</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/BAV199LT1-D.PDF</field>
+        <field name="Description">Dual Series Switch.Diode 70V 715mA SOT23 ON Semiconductor BAV199LT1G Fast Rectifier Diode, 215mA DC, 70V dc, 3us, 3-Pin SOT-23</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BAV199LT1G</field>
+        <field name="Mouser Part Number">863-BAV199LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=863-BAV199LT1G</field>
+        <field name="RS Part Number">7925521P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/7925521P</field>
+        <field name="Allied_Number">70100365</field>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/on-semiconductor-bav199lt1g/70100365/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspc"/>
+        <pin num="2" name="K" type="unspc"/>
+        <pin num="3" name="K/A" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="INA132UA">
+      <description>INA132UA, Differential Amplifier 5V 8-Pin SOIC</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina132.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">INA132UA</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina132.pdf</field>
+        <field name="Description">INA132UA, Differential Amplifier 5V 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA132UA</field>
+        <field name="Mouser Part Number">595-INA132UA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-INA132UA</field>
+        <field name="RS Part Number">2521644P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2521644P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="unspc"/>
+        <pin num="2" name="-IN" type="unspc"/>
+        <pin num="3" name="+IN" type="unspc"/>
+        <pin num="4" name="V-" type="unspc"/>
+        <pin num="5" name="SENSE" type="unspc"/>
+        <pin num="6" name="OUTPUT" type="unspc"/>
+        <pin num="7" name="V+" type="unspc"/>
+        <pin num="8" name="NO_INTERNAL_CONNECTION" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="JS202011SCQN">
+      <description>Sub miniature slide switches</description>
+      <docs>http://www.ckswitches.com/media/1422/js.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">JS202011SCQN</field>
+        <field name="Footprint">JS202011SCQN</field>
+        <field name="Datasheet">http://www.ckswitches.com/media/1422/js.pdf</field>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=611-JS202011SCQN</field>
+        <field name="RS Part Number">1546137</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1546137</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+        <pin num="5" name="5" type="unspc"/>
+        <pin num="6" name="6" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MCP3208-BI_P">
+      <description>12 bit ADC Differential, Serial, 16-Pin PDIP</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP3208-BI_P</field>
+        <field name="Footprint">DIP781W56P254L1918H533Q16N</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf</field>
+        <field name="Description">12 bit ADC Differential, Serial, 16-Pin PDIP</field>
+        <field name="Height">5.334</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP3208-BI/P</field>
+        <field name="Mouser Part Number">579-MCP3208-BI/P</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP3208-BI%2FP</field>
+        <field name="RS Part Number">3792487</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/3792487</field>
+        <field name="Allied_Number">70048406</field>
+        <field name="Allied Price/Stock">http://www.alliedelec.com/microchip-technology-inc-mcp3208-bi-p/70048406/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH0" type="unspc"/>
+        <pin num="2" name="CH1" type="unspc"/>
+        <pin num="3" name="CH2" type="unspc"/>
+        <pin num="4" name="CH3" type="unspc"/>
+        <pin num="5" name="CH4" type="unspc"/>
+        <pin num="6" name="CH5" type="unspc"/>
+        <pin num="7" name="CH6" type="unspc"/>
+        <pin num="8" name="CH7" type="unspc"/>
+        <pin num="9" name="DGND" type="power_in"/>
+        <pin num="10" name="~CS~/SHDN" type="input"/>
+        <pin num="11" name="DIN" type="input"/>
+        <pin num="12" name="DOUT" type="output"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="AGND" type="power_in"/>
+        <pin num="15" name="VREF" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TMR_1-0511">
+      <description>TRACOPOWER 1W Isolated DC-DC Converter, Vin 4.5  9 V dc, Vout 5V dc, I/O isolation 1500V dc</description>
+      <docs>https://assets.tracopower.com/20190212110407/TMR1/documents/tmr1-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">TMR_1-0511</field>
+        <field name="Footprint">TMR-1-1215</field>
+        <field name="Datasheet">https://assets.tracopower.com/20190212110407/TMR1/documents/tmr1-datasheet.pdf</field>
+        <field name="Description">TRACOPOWER 1W Isolated DC-DC Converter, Vin 4.5  9 V dc, Vout 5V dc, I/O isolation 1500V dc</field>
+        <field name="Manufacturer_Name">Traco Power</field>
+        <field name="Manufacturer_Part_Number">TMR 1-0511</field>
+        <field name="Mouser Part Number">495-TMR-1-0511</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=495-TMR-1-0511</field>
+        <field name="RS Part Number">7813178</field>
+        <field name="RS Price/Stock">https://uk.rs-online.com/web/p/products/7813178</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN_(GND)" type="unspc"/>
+        <pin num="2" name="+VIN_(VCC)" type="unspc"/>
+        <pin num="4" name="+VOUT" type="unspc"/>
+        <pin num="5" name="NO_PIN" type="unspc"/>
+        <pin num="6" name="-VOUT" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arduino" part="Arduino_Due_Shield_MA_V2">
+      <description>Shield for Arduino Due</description>
+      <docs>https://store.arduino.cc/arduino-due</docs>
+      <footprints>
+        <fp>Arduino_Due_Shield</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XA</field>
+        <field name="Value">Arduino_Due_Shield_MA_V2</field>
+      </fields>
+      <pins>
+        <pin num="3V3" name="3.3V" type="power_in"/>
+        <pin num="5V1" name="5V" type="power_in"/>
+        <pin num="5V2" name="SPI_5V" type="power_in"/>
+        <pin num="5V3" name="5V" type="power_in"/>
+        <pin num="5V4" name="5V" type="power_in"/>
+        <pin num="A0" name="A0" type="BiDi"/>
+        <pin num="A1" name="A1" type="BiDi"/>
+        <pin num="A2" name="A2" type="BiDi"/>
+        <pin num="A3" name="A3" type="BiDi"/>
+        <pin num="A4" name="A4" type="BiDi"/>
+        <pin num="A5" name="A5" type="BiDi"/>
+        <pin num="A6" name="A6" type="BiDi"/>
+        <pin num="A7" name="A7" type="BiDi"/>
+        <pin num="A8" name="A8" type="BiDi"/>
+        <pin num="A9" name="A9" type="BiDi"/>
+        <pin num="A10" name="A10" type="BiDi"/>
+        <pin num="A11" name="A11" type="BiDi"/>
+        <pin num="AREF" name="AREF" type="input"/>
+        <pin num="CANR" name="CANRX" type="BiDi"/>
+        <pin num="CANT" name="CANTX" type="BiDi"/>
+        <pin num="D4" name="D4_CS1" type="BiDi"/>
+        <pin num="D5" name="D5" type="BiDi"/>
+        <pin num="D6" name="D6" type="BiDi"/>
+        <pin num="D7" name="D7" type="BiDi"/>
+        <pin num="D8" name="D8" type="BiDi"/>
+        <pin num="D9" name="D9" type="BiDi"/>
+        <pin num="D10" name="D10_CS0" type="BiDi"/>
+        <pin num="D11" name="D11" type="BiDi"/>
+        <pin num="D12" name="D12" type="BiDi"/>
+        <pin num="D13" name="D13" type="BiDi"/>
+        <pin num="D16" name="D16_TX2" type="BiDi"/>
+        <pin num="D17" name="D17_RX2" type="BiDi"/>
+        <pin num="D18" name="D18_TX1" type="BiDi"/>
+        <pin num="D19" name="D19_RX1" type="BiDi"/>
+        <pin num="D20" name="D20_SDA" type="BiDi"/>
+        <pin num="D21" name="D21_SCL" type="BiDi"/>
+        <pin num="D22" name="D22" type="BiDi"/>
+        <pin num="D23" name="D23" type="BiDi"/>
+        <pin num="D52" name="D52_CS2" type="BiDi"/>
+        <pin num="D53" name="D53" type="BiDi"/>
+        <pin num="DAC0" name="DAC0" type="BiDi"/>
+        <pin num="DAC1" name="DAC1" type="BiDi"/>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND" type="power_in"/>
+        <pin num="GND3" name="GND" type="power_in"/>
+        <pin num="GND4" name="SPI_GND" type="power_in"/>
+        <pin num="GND5" name="GND" type="power_in"/>
+        <pin num="GND6" name="GND" type="power_in"/>
+        <pin num="IORF" name="IOREF" type="output"/>
+        <pin num="MISO" name="SPI_MISO" type="input"/>
+        <pin num="MOSI" name="SPI_MOSI" type="output"/>
+        <pin num="RST1" name="RESET" type="openCol"/>
+        <pin num="RST2" name="SPI_RESET" type="openCol"/>
+        <pin num="SCK" name="SPI_SCK" type="output"/>
+        <pin num="SCL1" name="SCL1" type="BiDi"/>
+        <pin num="SDA1" name="SDA1" type="BiDi"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/flori/Documents/SamacSys_PCB_Library/KiCad/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="arduino">
+      <uri>C:/Users/flori/Desktop/Version_1/arduino-kicad-library-master/arduino.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="SW1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="10"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="J1" pin="MP2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="MP1"/>
+      <node ref="PS1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="S6" pin="2"/>
+      <node ref="S6" pin="5"/>
+      <node ref="XA1" pin="GND2"/>
+      <node ref="XA1" pin="GND3"/>
+      <node ref="XA1" pin="GND5"/>
+      <node ref="XA1" pin="GND6"/>
+      <node ref="XA1" pin="GND1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="PS1" pin="2"/>
+      <node ref="XA1" pin="5V4"/>
+      <node ref="XA1" pin="5V3"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="3" name="/Analog/Messung/SPI_MISO_AD">
+      <node ref="R5" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="4" name="/Analog/Messung/SPI_MOSI_AD">
+      <node ref="IC1" pin="4"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="R38" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="XA1" pin="3V3"/>
+      <node ref="J9" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="6" name="/Analog/Messung/SPI_CS_AD">
+      <node ref="IC1" pin="3"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="7" name="/Analog/Messung/SPI_CLK_AD">
+      <node ref="IC1" pin="5"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="8" name="/Analog/Messung/V_REF">
+      <node ref="IC3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="IC2" pin="15"/>
+    </net>
+    <net code="9" name="/Analog/Messung/Messung/CH_0">
+      <node ref="TP2" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="10" name="/Analog/Messung/Messung/CH_1">
+      <node ref="TP3" pin="1"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="11" name="/Analog/Messung/Messung/CH_2">
+      <node ref="IC2" pin="3"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="12" name="/Analog/Messung/Messung/CH_3">
+      <node ref="TP5" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="13" name="/Analog/Messung/Messung/CH_4">
+      <node ref="R15" pin="1"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="14" name="GNDA">
+      <node ref="C14" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="IC8" pin="4"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="IC5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="IC5" pin="4"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="IC4" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="IC4" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="IC7" pin="4"/>
+      <node ref="IC7" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="PS1" pin="6"/>
+      <node ref="IC6" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="IC6" pin="4"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="D8" pin="1"/>
+      <node ref="IC2" pin="14"/>
+      <node ref="D11" pin="1"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="IC2" pin="9"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="IC8" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="15" name="+5VA">
+      <node ref="IC4" pin="7"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="IC8" pin="7"/>
+      <node ref="IC7" pin="7"/>
+      <node ref="C14" pin="1"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="IC5" pin="7"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="IC6" pin="7"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="PS1" pin="4"/>
+      <node ref="IC2" pin="16"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(IC1-Pad11)">
+      <node ref="IC2" pin="12"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="18" name="Net-(PS1-Pad5)">
+      <node ref="PS1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+      <node ref="IC2" pin="13"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad14)">
+      <node ref="R11" pin="2"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="IC2" pin="10"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="22" name="Net-(IC2-Pad7)">
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="23" name="Net-(IC2-Pad8)">
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="24" name="Net-(IC2-Pad6)">
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="25" name="Net-(R5-Pad2)">
+      <node ref="XA1" pin="D17"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="XA1" pin="D16"/>
+    </net>
+    <net code="27" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="XA1" pin="A0"/>
+    </net>
+    <net code="28" name="/Digital/Arduino/SCL_0">
+      <node ref="XA1" pin="D21"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="29" name="/Digital/Arduino/SDA_0">
+      <node ref="J2" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="XA1" pin="D20"/>
+    </net>
+    <net code="30" name="Net-(D2-Pad1)">
+      <node ref="XA1" pin="D6"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="XA1" pin="D7"/>
+    </net>
+    <net code="32" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="35" name="/Digital/Arduino/SPI_MOSI_0">
+      <node ref="J1" pin="3"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="XA1" pin="MOSI"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="36" name="/Digital/Arduino/SPI_MISO_0">
+      <node ref="XA1" pin="MISO"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="37" name="/Digital/Arduino/SPI_CLK_0">
+      <node ref="J1" pin="5"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="XA1" pin="SCK"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="39" name="/Digital/Arduino/Pin_Ex_0">
+      <node ref="J9" pin="4"/>
+      <node ref="XA1" pin="A3"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="41" name="/Digital/Arduino/Int_RTC">
+      <node ref="J2" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="XA1" pin="D22"/>
+    </net>
+    <net code="42" name="/Digital/Arduino/SPI_CS_SD">
+      <node ref="XA1" pin="D4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="43" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="44" name="Net-(R37-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="S6" pin="1"/>
+      <node ref="XA1" pin="A10"/>
+      <node ref="S6" pin="6"/>
+    </net>
+    <net code="45" name="Net-(R38-Pad1)">
+      <node ref="XA1" pin="A9"/>
+      <node ref="S6" pin="3"/>
+      <node ref="S6" pin="4"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R36-Pad1)">
+      <node ref="XA1" pin="A8"/>
+      <node ref="R36" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="47" name="Net-(J9-Pad3)">
+      <node ref="XA1" pin="5V1"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="48" name="Net-(R40-Pad1)">
+      <node ref="R40" pin="1"/>
+      <node ref="XA1" pin="D23"/>
+    </net>
+    <net code="49" name="Net-(R39-Pad2)">
+      <node ref="XA1" pin="D18"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="50" name="/Digital/Arduino/Pin_Ex_1">
+      <node ref="XA1" pin="A4"/>
+      <node ref="J9" pin="5"/>
+    </net>
+    <net code="51" name="/Digital/Arduino/Pin_Ex_2">
+      <node ref="J9" pin="6"/>
+      <node ref="XA1" pin="A5"/>
+    </net>
+    <net code="52" name="Net-(XA1-PadA11)">
+      <node ref="XA1" pin="A11"/>
+    </net>
+    <net code="53" name="Net-(XA1-Pad5V2)">
+      <node ref="XA1" pin="5V2"/>
+    </net>
+    <net code="54" name="Net-(XA1-PadA1)">
+      <node ref="XA1" pin="A1"/>
+    </net>
+    <net code="55" name="Net-(XA1-PadA2)">
+      <node ref="XA1" pin="A2"/>
+    </net>
+    <net code="56" name="Net-(XA1-PadA6)">
+      <node ref="XA1" pin="A6"/>
+    </net>
+    <net code="57" name="Net-(XA1-PadA7)">
+      <node ref="XA1" pin="A7"/>
+    </net>
+    <net code="58" name="Net-(XA1-PadAREF)">
+      <node ref="XA1" pin="AREF"/>
+    </net>
+    <net code="59" name="Net-(XA1-PadCANR)">
+      <node ref="XA1" pin="CANR"/>
+    </net>
+    <net code="60" name="Net-(XA1-PadCANT)">
+      <node ref="XA1" pin="CANT"/>
+    </net>
+    <net code="61" name="Net-(XA1-PadSCL1)">
+      <node ref="XA1" pin="SCL1"/>
+    </net>
+    <net code="62" name="Net-(XA1-PadGND4)">
+      <node ref="XA1" pin="GND4"/>
+    </net>
+    <net code="63" name="Net-(XA1-PadIORF)">
+      <node ref="XA1" pin="IORF"/>
+    </net>
+    <net code="64" name="Net-(XA1-PadRST1)">
+      <node ref="XA1" pin="RST1"/>
+    </net>
+    <net code="65" name="Net-(XA1-PadRST2)">
+      <node ref="XA1" pin="RST2"/>
+    </net>
+    <net code="66" name="Net-(XA1-PadSDA1)">
+      <node ref="XA1" pin="SDA1"/>
+    </net>
+    <net code="67" name="Net-(XA1-PadVIN)">
+      <node ref="XA1" pin="VIN"/>
+    </net>
+    <net code="68" name="Net-(XA1-PadD10)">
+      <node ref="XA1" pin="D10"/>
+    </net>
+    <net code="69" name="Net-(XA1-PadD11)">
+      <node ref="XA1" pin="D11"/>
+    </net>
+    <net code="70" name="Net-(XA1-PadD12)">
+      <node ref="XA1" pin="D12"/>
+    </net>
+    <net code="71" name="Net-(XA1-PadD13)">
+      <node ref="XA1" pin="D13"/>
+    </net>
+    <net code="72" name="Net-(XA1-PadD19)">
+      <node ref="XA1" pin="D19"/>
+    </net>
+    <net code="73" name="Net-(XA1-PadD5)">
+      <node ref="XA1" pin="D5"/>
+    </net>
+    <net code="74" name="Net-(XA1-PadD52)">
+      <node ref="XA1" pin="D52"/>
+    </net>
+    <net code="75" name="Net-(XA1-PadD53)">
+      <node ref="XA1" pin="D53"/>
+    </net>
+    <net code="76" name="Net-(XA1-PadD8)">
+      <node ref="XA1" pin="D8"/>
+    </net>
+    <net code="77" name="Net-(XA1-PadD9)">
+      <node ref="XA1" pin="D9"/>
+    </net>
+    <net code="78" name="Net-(XA1-PadDAC0)">
+      <node ref="XA1" pin="DAC0"/>
+    </net>
+    <net code="79" name="Net-(XA1-PadDAC1)">
+      <node ref="XA1" pin="DAC1"/>
+    </net>
+    <net code="80" name="Net-(IC4-Pad5)">
+      <node ref="IC4" pin="5"/>
+      <node ref="R12" pin="2"/>
+      <node ref="IC4" pin="6"/>
+    </net>
+    <net code="81" name="Net-(D14-Pad3)">
+      <node ref="D14" pin="3"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R35" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="IC8" pin="2"/>
+    </net>
+    <net code="82" name="Net-(IC4-Pad8)">
+      <node ref="IC4" pin="8"/>
+    </net>
+    <net code="83" name="Net-(IC5-Pad8)">
+      <node ref="IC5" pin="8"/>
+    </net>
+    <net code="84" name="Net-(IC5-Pad5)">
+      <node ref="R13" pin="2"/>
+      <node ref="IC5" pin="5"/>
+      <node ref="IC5" pin="6"/>
+    </net>
+    <net code="85" name="Net-(IC7-Pad5)">
+      <node ref="IC7" pin="6"/>
+      <node ref="IC7" pin="5"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="86" name="Net-(IC7-Pad8)">
+      <node ref="IC7" pin="8"/>
+    </net>
+    <net code="87" name="Net-(D13-Pad3)">
+      <node ref="R24" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="D13" pin="3"/>
+      <node ref="IC7" pin="2"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="88" name="Net-(IC6-Pad5)">
+      <node ref="IC6" pin="6"/>
+      <node ref="R16" pin="2"/>
+      <node ref="IC6" pin="5"/>
+    </net>
+    <net code="89" name="Net-(IC6-Pad8)">
+      <node ref="IC6" pin="8"/>
+    </net>
+    <net code="90" name="Net-(D7-Pad3)">
+      <node ref="S3" pin="2"/>
+      <node ref="D7" pin="3"/>
+      <node ref="IC6" pin="3"/>
+    </net>
+    <net code="91" name="Net-(IC8-Pad5)">
+      <node ref="IC8" pin="5"/>
+      <node ref="R15" pin="2"/>
+      <node ref="IC8" pin="6"/>
+    </net>
+    <net code="92" name="Net-(IC8-Pad8)">
+      <node ref="IC8" pin="8"/>
+    </net>
+    <net code="93" name="Net-(R33-Pad1)">
+      <node ref="S3" pin="4"/>
+      <node ref="R33" pin="1"/>
+      <node ref="S3" pin="3"/>
+    </net>
+    <net code="94" name="Net-(R32-Pad1)">
+      <node ref="S2" pin="4"/>
+      <node ref="R32" pin="1"/>
+      <node ref="S2" pin="3"/>
+    </net>
+    <net code="95" name="Net-(J5-Pad1)">
+      <node ref="S2" pin="5"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D6-Pad3)">
+      <node ref="IC5" pin="3"/>
+      <node ref="D6" pin="3"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D11-Pad3)">
+      <node ref="IC5" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="D11" pin="3"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="98" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="S2" pin="6"/>
+    </net>
+    <net code="99" name="Net-(R18-Pad2)">
+      <node ref="S2" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="100" name="Net-(D12-Pad3)">
+      <node ref="D12" pin="3"/>
+      <node ref="IC6" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="101" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="102" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="S1" pin="4"/>
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="103" name="Net-(D5-Pad3)">
+      <node ref="D5" pin="3"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="104" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="S1" pin="5"/>
+    </net>
+    <net code="105" name="Net-(R17-Pad2)">
+      <node ref="S1" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D10-Pad3)">
+      <node ref="R20" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="IC4" pin="2"/>
+      <node ref="D10" pin="3"/>
+    </net>
+    <net code="107" name="Net-(R34-Pad1)">
+      <node ref="S4" pin="3"/>
+      <node ref="S4" pin="4"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="108" name="Net-(R21-Pad2)">
+      <node ref="R24" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="S4" pin="1"/>
+    </net>
+    <net code="109" name="Net-(R21-Pad1)">
+      <node ref="S4" pin="6"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="110" name="Net-(J7-Pad1)">
+      <node ref="S5" pin="5"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="111" name="Net-(R35-Pad1)">
+      <node ref="S5" pin="3"/>
+      <node ref="S5" pin="4"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="112" name="Net-(D9-Pad3)">
+      <node ref="S5" pin="2"/>
+      <node ref="D9" pin="3"/>
+      <node ref="IC8" pin="3"/>
+    </net>
+    <net code="113" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="S5" pin="1"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="114" name="Net-(R19-Pad2)">
+      <node ref="R23" pin="1"/>
+      <node ref="S3" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="115" name="Net-(R19-Pad1)">
+      <node ref="S3" pin="6"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="116" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="S3" pin="5"/>
+    </net>
+    <net code="117" name="Net-(D8-Pad3)">
+      <node ref="S4" pin="2"/>
+      <node ref="IC7" pin="3"/>
+      <node ref="D8" pin="3"/>
+    </net>
+    <net code="118" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="S4" pin="5"/>
+    </net>
+    <net code="119" name="Net-(R25-Pad1)">
+      <node ref="S5" pin="6"/>
+      <node ref="R25" pin="1"/>
+    </net>
+  </nets>
+</export>
