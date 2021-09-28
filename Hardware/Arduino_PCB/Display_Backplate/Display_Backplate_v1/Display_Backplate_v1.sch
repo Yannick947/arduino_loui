@@ -1,0 +1,196 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Display_Backplate"
+Date "2021-09-17"
+Rev "1"
+Comp "FY"
+Comment1 "F.Faber"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x14 J1
+U 1 1 614462AF
+P 3050 2350
+F 0 "J1" H 2968 3167 50  0000 C CNN
+F 1 "Conn_01x14" H 2968 3076 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 3050 2350 50  0001 C CNN
+F 3 "~" H 3050 2350 50  0001 C CNN
+	1    3050 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J2
+U 1 1 61449213
+P 4500 1850
+F 0 "J2" H 4550 2167 50  0000 C CNN
+F 1 "Conn_02x04_Counter_Clockwise" H 4550 2076 50  0000 C CNN
+F 2 "Eigene:Muekra_8pol_Pfostenstecker" H 4500 1850 50  0001 C CNN
+F 3 "~" H 4500 1850 50  0001 C CNN
+	1    4500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1750 3650 1750
+Wire Wire Line
+	3250 1850 3450 1850
+Wire Wire Line
+	3250 1950 4300 1950
+Wire Wire Line
+	3250 2050 4300 2050
+Wire Wire Line
+	3250 2150 4800 2150
+Wire Wire Line
+	4800 2150 4800 2050
+Wire Wire Line
+	3250 2250 4900 2250
+Wire Wire Line
+	4900 2250 4900 1950
+Wire Wire Line
+	4900 1950 4800 1950
+Wire Wire Line
+	3250 2350 5000 2350
+Wire Wire Line
+	5000 2350 5000 1850
+Wire Wire Line
+	5000 1850 4800 1850
+Wire Wire Line
+	4800 1750 5100 1750
+Wire Wire Line
+	5100 1750 5100 2450
+Wire Wire Line
+	5100 2450 3250 2450
+Wire Wire Line
+	3650 1450 3650 1550
+Connection ~ 3650 1750
+Wire Wire Line
+	3650 1750 4300 1750
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 6144C976
+P 3950 1450
+F 0 "#FLG01" H 3950 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 1623 50  0000 C CNN
+F 2 "" H 3950 1450 50  0001 C CNN
+F 3 "~" H 3950 1450 50  0001 C CNN
+	1    3950 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1450 3950 1550
+Wire Wire Line
+	3950 1550 3650 1550
+Connection ~ 3650 1550
+Wire Wire Line
+	3650 1550 3650 1750
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6144766A
+P 3800 2550
+F 0 "TP1" V 3754 2738 50  0000 L CNN
+F 1 "TestPoint" V 3845 2738 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4000 2550 50  0001 C CNN
+F 3 "~" H 4000 2550 50  0001 C CNN
+	1    3800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 6144815C
+P 3800 2650
+F 0 "TP2" V 3754 2838 50  0000 L CNN
+F 1 "TestPoint" V 3845 2838 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4000 2650 50  0001 C CNN
+F 3 "~" H 4000 2650 50  0001 C CNN
+	1    3800 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 614485A2
+P 3800 2750
+F 0 "TP3" V 3754 2938 50  0000 L CNN
+F 1 "TestPoint" V 3845 2938 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4000 2750 50  0001 C CNN
+F 3 "~" H 4000 2750 50  0001 C CNN
+	1    3800 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 614488E5
+P 3800 2850
+F 0 "TP4" V 3754 3038 50  0000 L CNN
+F 1 "TestPoint" V 3845 3038 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4000 2850 50  0001 C CNN
+F 3 "~" H 4000 2850 50  0001 C CNN
+	1    3800 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 61448C31
+P 3800 2950
+F 0 "TP5" V 3754 3138 50  0000 L CNN
+F 1 "TestPoint" V 3845 3138 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4000 2950 50  0001 C CNN
+F 3 "~" H 4000 2950 50  0001 C CNN
+	1    3800 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 6144905D
+P 3800 3050
+F 0 "TP6" V 3754 3238 50  0000 L CNN
+F 1 "TestPoint" V 3845 3238 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4000 3050 50  0001 C CNN
+F 3 "~" H 4000 3050 50  0001 C CNN
+	1    3800 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 3050 3250 3050
+Wire Wire Line
+	3250 2950 3800 2950
+Wire Wire Line
+	3800 2850 3250 2850
+Wire Wire Line
+	3250 2750 3800 2750
+Wire Wire Line
+	3800 2650 3250 2650
+Wire Wire Line
+	3250 2550 3800 2550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6145A279
+P 3650 1450
+F 0 "#PWR?" H 3650 1300 50  0001 C CNN
+F 1 "+3.3V" H 3665 1623 50  0000 C CNN
+F 2 "" H 3650 1450 50  0001 C CNN
+F 3 "" H 3650 1450 50  0001 C CNN
+	1    3650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6145ABA3
+P 3450 1450
+F 0 "#PWR?" H 3450 1200 50  0001 C CNN
+F 1 "GND" H 3455 1277 50  0000 C CNN
+F 2 "" H 3450 1450 50  0001 C CNN
+F 3 "" H 3450 1450 50  0001 C CNN
+	1    3450 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 1450 3450 1850
+Connection ~ 3450 1850
+Wire Wire Line
+	3450 1850 4300 1850
+$EndSCHEMATC
