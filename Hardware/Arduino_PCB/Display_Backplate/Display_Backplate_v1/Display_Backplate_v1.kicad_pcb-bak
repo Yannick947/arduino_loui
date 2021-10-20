@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 11)
     (tracks 39)
     (zones 0)
     (modules 8)
@@ -354,6 +354,18 @@
     )
   )
 
+  (dimension 3.5 (width 0.15) (layer Dwgs.User)
+    (gr_text "3,500 mm" (at 145.45 121.25 270) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 158 123) (xy 146.163579 123)))
+    (feature2 (pts (xy 158 119.5) (xy 146.163579 119.5)))
+    (crossbar (pts (xy 146.75 119.5) (xy 146.75 123)))
+    (arrow1a (pts (xy 146.75 123) (xy 146.163579 121.873496)))
+    (arrow1b (pts (xy 146.75 123) (xy 147.336421 121.873496)))
+    (arrow2a (pts (xy 146.75 119.5) (xy 146.163579 120.626504)))
+    (arrow2b (pts (xy 146.75 119.5) (xy 147.336421 120.626504)))
+  )
   (dimension 3.5 (width 0.15) (layer Dwgs.User)
     (gr_text "3,500 mm" (at 143.7 84.75 90) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
