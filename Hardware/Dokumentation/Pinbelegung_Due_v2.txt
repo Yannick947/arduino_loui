@@ -1,0 +1,37 @@
+<Pinbelegung Arduino DUE 
+Stand 12.04.19
+				
+Funktion	Pin/Board	Pin/Shield	Shield
+				Großer Connector	
+
+Switch 1	51		13		DB8
+Switch 2.1	50		15		DB9
+Switch 2.2	49		17		DB10
+
+LED 1.1		48		19		DB11
+LED 1.2		47		21		DB12
+LED 2.1		46		23		DB13
+LED 2.2		45		25		DB14
+LED 2.3		44		27		DB15
+
+Motor LL 1	9		-
+Motor LL 2	10		-
+
+Motor Dos 1	11		-	
+Motor Dos 2	12		-
+
+Lichtschr. 1	A1		-
+Lichtschr. 2	A2		-
+Lichtschr. 3	A3		-
+Lichtschr. 4	A4		-
+
+Lichtschr. Dos	A5		-
+
+Audio Out 	DAC 1
+
+Display:
+cd		38				DB5
+res		36				DB3
+cs		34				DB1
+
++SPI
