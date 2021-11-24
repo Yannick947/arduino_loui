@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Frontplate"
-Date "2021-09-16"
-Rev "1"
+Date "2021-11-24"
+Rev "1_1"
 Comp "FY"
 Comment1 "F.Faber"
 Comment2 ""
@@ -299,8 +299,6 @@ Wire Wire Line
 Connection ~ 2600 2550
 Connection ~ 4550 1450
 Wire Wire Line
-	5350 2350 5350 2050
-Wire Wire Line
 	5700 2150 5700 2350
 Connection ~ 3000 1250
 Wire Wire Line
@@ -376,8 +374,6 @@ F 3 "~" H 1500 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 2050 6250 2050
-Wire Wire Line
 	5750 1350 5050 1350
 Wire Wire Line
 	5050 1350 5050 1250
@@ -390,18 +386,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 1550 4150 1650
 Connection ~ 4150 1650
-Wire Wire Line
-	3750 1750 4650 1750
-Wire Wire Line
-	4650 1750 4650 1650
-Wire Wire Line
-	4650 1650 5750 1650
-Wire Wire Line
-	4950 1750 5750 1750
-Wire Wire Line
-	4950 1750 4950 2350
-Wire Wire Line
-	6250 1750 6250 2050
 Wire Wire Line
 	6250 1650 6350 1650
 Wire Wire Line
@@ -431,7 +415,7 @@ Connection ~ 5050 1250
 Wire Wire Line
 	6250 1550 6800 1550
 Wire Wire Line
-	6800 1550 6800 2500
+	6800 1550 6800 2350
 Wire Wire Line
 	6800 2500 7400 2500
 $Comp
@@ -479,12 +463,6 @@ Connection ~ 6050 2950
 Wire Wire Line
 	6050 2950 6450 2950
 Wire Wire Line
-	6050 2350 6450 2350
-Wire Wire Line
-	6450 2350 6450 1450
-Wire Wire Line
-	6450 1450 6250 1450
-Wire Wire Line
 	6550 1350 6550 2950
 Wire Wire Line
 	6250 1350 6550 1350
@@ -493,4 +471,50 @@ Wire Wire Line
 	6550 2950 6450 2950
 NoConn ~ 7400 2300
 NoConn ~ 2400 2350
+Wire Wire Line
+	6050 2350 6800 2350
+Connection ~ 6800 2350
+Wire Wire Line
+	6800 2350 6800 2500
+$Comp
+L Connector:TestPoint TP3
+U 1 1 619E6D21
+P 7250 1750
+F 0 "TP3" H 7308 1868 50  0000 L CNN
+F 1 "TestPoint" H 7308 1777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7450 1750 50  0001 C CNN
+F 3 "~" H 7450 1750 50  0001 C CNN
+	1    7250 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 619E8023
+P 7250 1450
+F 0 "TP4" H 7308 1568 50  0000 L CNN
+F 1 "TestPoint" H 7308 1477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7450 1450 50  0001 C CNN
+F 3 "~" H 7450 1450 50  0001 C CNN
+	1    7250 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 1450 6250 1450
+Wire Wire Line
+	5350 1750 5350 2350
+Wire Wire Line
+	3750 1750 5350 1750
+Wire Wire Line
+	4950 2350 4950 1900
+Wire Wire Line
+	4950 1900 5750 1900
+Wire Wire Line
+	5750 1900 5750 1750
+Wire Wire Line
+	5750 1650 5350 1650
+Wire Wire Line
+	5350 1650 5350 1750
+Connection ~ 5350 1750
+Wire Wire Line
+	7250 1750 6250 1750
 $EndSCHEMATC
